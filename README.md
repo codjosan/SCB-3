@@ -1,15 +1,17 @@
 # SCB-3
 
-How to run:
-DownLoad SCB-3.jar
+## How to run ##
 
-java -jar SCB-3.jar
+- DownLoad SCB-3.jar
 
-Execute Curl command
+## Execute jar  ##
+- java -jar SCB-3.jar
+
+## Execute Curl command ##
 curl --request POST --data-binary @file.csv  --header 'Content-Type:text/csv' --header 'Accept:text/csv' http://localhost:8080/api/v1/enrich
 
 
-Improvements
+## Improvements ##
 
 Loggins, testing
 Load Product mapping to database
