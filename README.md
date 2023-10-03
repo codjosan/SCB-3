@@ -13,12 +13,18 @@ curl --request POST --data-binary @file.csv  --header 'Content-Type:text/csv' --
 
 ## Improvements ##
 
-Loggins, testing
+Loggins
+
+testing
+
 Load Product mapping to database
 
 multi-threading:
 thread to start and run the serv
+
 thread to handle request
-create web socket to hadle multiple request on same connection
+
+create web socket to handle multiple request on same connection
+
 Secure connection to webserver using HTTPS/SSL
  
