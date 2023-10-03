@@ -2,6 +2,7 @@
 
 How to run:
 DownLoad SCB-3.jar
+
 java -jar SCB-3.jar
 
 Execute Curl command
